@@ -1,0 +1,33 @@
+.slidev-note {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.7rem !important;
+}
+
+#slide-content {
+  background-color: #282a3a !important;
+}
+
+#flowchart-A-0 > g > foreignObject > div > span {
+  font-family: 'Virgil' !important;
+}
+
+.slidev-layout {
+  padding-top: 3.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.layout2 {
+  grid-template-columns: 1fr !important;
+}
+
+.layout2 .main, .layout2 .next {
+  display: none;
+}
+
+.two-columns .col-left {
+  padding-right: 30px;
+}
+
+.two-columns .col-right {
+  padding-top: 55px;
+}
