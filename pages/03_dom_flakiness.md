@@ -65,7 +65,7 @@ it('finds the word "bugs" on a card item', () => {
 ```
 ```js
 it('finds the word "bugs" on a card item', () => {
-  cy,visit('/board/1')
+  cy.visit('/board/1')
   cy.get('[data-cy=card]')
     .should('have.length', 2)
     .eq(0)
